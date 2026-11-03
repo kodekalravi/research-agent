@@ -16,7 +16,7 @@ client = OpenAI(
     base_url="https://api.groq.com/openai/v1",
     api_key=os.environ["API_KEY"],
 )
-MODEL = "openai/gpt-oss-20b"
+MODEL = "openai/gpt-oss-120b"
 MAX_STEPS = 8  # max tool-use rounds per question
 
 SYSTEM_PROMPT = (
